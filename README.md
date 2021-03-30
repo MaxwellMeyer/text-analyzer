@@ -24,3 +24,11 @@ Code:
 const text = "hello there";
 wordCounter(text);
 Expected Output: 2
+
+Describe: numberOfOccurrencesInText()
+Test: "It should return 0 occurrences of a word for an empty string."
+Code:
+const text = "";
+const word = "red";
+wordCounter(word, text);
+Expected Output: 0
