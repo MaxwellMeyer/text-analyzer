@@ -87,7 +87,15 @@ function numberOfOccurrencesInText(word, text) {
 //   });
 //   return htmlString + "</p>";
 // }
-
+function boldPassage(word, text) {
+  if (noInputtedWord(word, text)) {
+    return "";
+  }
+  const regexWord = new RegExp(word, "gi");
+  const boldedWord = "<b>" + word + "</b>";
+  const htmlString = text.replace(regexWord, boldedWord);
+  return "<p>" + htmlString + "</p>";
+}
 // $(document).ready(function(){
 //   $("form#word-counter").submit(function(event){
 //     event.preventDefault();
