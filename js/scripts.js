@@ -1,4 +1,4 @@
-// // Utility Logic
+// //UL
 
 // function noInputtedWord() {
 //   for (let i=0; i < arguments.length; i++) {
@@ -10,7 +10,7 @@
 //   return false;
 // }
 
-// // Business Logic
+// // BL
 
 // function wordCounter(text) {
 //   if (noInputtedWord(text)) {
